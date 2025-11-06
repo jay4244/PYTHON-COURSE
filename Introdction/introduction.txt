@@ -1,0 +1,308 @@
+1. what is python :- python is most powerwfull, easy to understand , interpreted , clean and clear syntax based , 
+    most popular , object based , programing language.
+    -> python is open source programing language.
+----------------------------------------------------------
+2. why did choose python :- 
+
+    python is powerfull , python has huge library collection , 
+    using of python we can build web apllication , games , 
+    we can use in ML,ds,da,ai and even lot.....
+-----------------------------------------------------------
+print :- print is a function in python 
+        which is used to display apporpriate message on console screen.
+
+    syntax :-
+
+          print("message")
+
+    print function usually work for debbuing in python    
+-----------------------------------------------------------
+end= :- end parameter which is used in print function to end with spacific and print.
+
+        syntax :
+    print("hello",end=" ")
+-----------------------------------------------------------
+in python there are 2 version are aveliable 
+
+            1) python 2.0 : print is a just statment
+
+                print "hello world"
+
+            2)python 3.0 : print is a function
+
+                print()
+----------------------------------------------------------
+IDLE : integreted development learning enviroment
+
+IDE : integreted development enviroment
+
+        pycharm : python`s offical IDE
+---------------------------------------------------------
+variable :- a name which can store a value.
+
+    in python there is an need to declare any value.
+
+datatype :- which type of store a variable.
+
+values:-
+        1. numeric (numbers) :-
+                                1.withoutpoint :- int(interger)
+                                2. point :- float (float)
+        2. charcter :-
+                        char and string
+        3. Boolean :-
+                        bool                                        
+-------------------------------------------------------
+comments :- which is ignore by complier or interpeter 
+
+    there are 2 type of comments in python
+
+    1) single line 
+    2) multi line comments
+
+    1) single line :- indicates with #
+
+                 e.g., # this single line comments   
+    2) multi-line :-
+
+                e.g., """
+                        this multi line comments/
+                      """  
+-----------------------------------------------------
+input :- is python using of input() function
+        we can accept value frome user.
+
+
+        note :- by defualt input function accept value in string format.
+
+        syntax :
+
+        var = input("pormpt message")
+---------------------------------------------------------
+type() :- using of type function we can check which type of value are store in a variable.
+
+        syntax :-
+                    print(type)
+---------------------------------------------------------
+typecasting :- to convert one data value into another data type.
+
+
+
+---------------------------------------------------------
+operators : to perfrom specific operations
+            at that time we use some specific symbols
+
+            these kind symbols is known as operators
+
+        e.g,
+            a + b
+                here, a and b are operator and + is an operator
+
+1) Airthmatic  operator : to perform Airthmetic operations we use below operators
+
+    +  -  *  /  %  **  //
+
+2) Assignment operator : to assign something.
+
+    =
+
+    shorthand operator : combination of Airthmetic and Assignment
+
+        +=  -=  *=  /=  %=  //=  **=
+
+3) Relational operator or Compairison operator :
+
+    >  <  >=  <=  ==  !=
+
+4)Logical operator :::
+
+    and
+    or
+    not
+
+5) identitiy operator :::
+
+        is
+        is not
+
+6) Membership operator :
+
+        in
+        not in
+
+7) bitwise operator : same like C language
+
+=============================================
+contorl statements
+
+    there are mainly 3 types of contorl statements
+
+    1) conditional statements
+    2) looping statements
+    3) jumping statements
+
+---------------------------------------------
+1) conditional statements :
+
+    if statement
+    if..else statement
+    elif statement
+    nested statement
+    match statement
+
+-------------------------------------------
+1) if statement :::
+
+        if conditional statement goes true statement will excute.
+
+        syntax :
+
+        if condition:
+            statement
+
+2) if...else :::
+ 
+        if condition goes true it will excute if part
+        if condition goes false it will excute else part
+
+        syntx ::
+
+                if condition:
+                    true statement
+                else:
+                    false statement
+
+3) elif statement :::
+
+        when there are mulitple conditions are there its called elif statement
+
+   syntax :
+
+            if statement:
+                statement
+            elif statement:
+                statement
+            elif statement:
+                statement
+            else :
+                 defult statement                         
+
+4)  nesated if statement::
+
+    if condition inside the another if statement. its called nested if statement
+
+    syntax:::
+
+    if condition:
+        statement
+        else:
+            statement
+    else:
+        if condition:
+            statement   
+====================================================
+looping statement :
+
+        there are 2 type of looping statement
+        1)for looping
+        2)while looping
+
+for loop : represtation
+            sequance controlled loop
+while loop : entry controlled loop
+
+==================================================
+for loop :
+
+synatax :
+        for var in sequance :
+            statement
+
+
+================================================
+WHile loop :
+
+    entry contolled loop
+
+    when condition goes true loop will excute.
+
+    syntax:
+
+        intilization 
+        while condition:
+            statement
+            updation
+==============================================
+Jumping statements :
+
+there are 3 types of jumping statements
+
+1) break 
+2) continue
+3) pass 
+
+1) break :
+            it will break the loop. using of break keyword we can break the loop.
+
+        syntax :
+
+                break    
+             
+2) continue : it will skip the statement
+                but loop will continue.
+
+    syntax:
+
+        continue
+
+
+3) pass :  nothing to display.
+
+===========================================
+nested loop ::
+
+when loop call inside the another loop its called nested for loop.
+
+syntax :::
+
+    for var in sequance:
+        for var in sequance:
+        statement
+
+==========================================
+remove record from the existing list :::
+
+1)remove : using of remove method we can remove element from the list.
+
+        syntax :
+        
+        l1.remove("element")
+
+2)pop : using of pop method we can remove last index element from the list.
+
+        syntax :
+
+        l1.remove()
+
+        or
+
+        pop(index) : using of pop with we can remove element from specific index position.
+
+3)clear : using of clear method we can remove all elemnet from the existing list
+
+        syntax :
+
+        l1.clear()
+
+4)del : using of del element we can delete list from the memory.
+
+    syntax :
+
+        del l1
+
+--------------------------------------------
+index() : using of index method we can find out specific index position of element.
+
+    syntax :
+
+    list.index(value)
