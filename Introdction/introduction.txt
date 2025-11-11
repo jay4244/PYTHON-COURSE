@@ -269,7 +269,26 @@ syntax :::
         for var in sequance:
         statement
 
-==========================================
+============ Core Python Complete =============
+1) string
+
+string :- string is a combination of charcters or we cansay that collection of charcters.
+          string which is denoted with single quotes and double quotes.
+
+e.g.,
+name = "python"
+
+sting indexing 
+-> two type of indexing 
+1)positive indexing
+2)nagative indexing
+
+1)positive indexing stat with 0
+0   1   2   3   # positive indexing  
+j   a   v   a
+-4  -3  -2  -1  # nagative indexing
+==============================================
+Jumping
 remove record from the existing list :::
 
 1)remove : using of remove method we can remove element from the list.
@@ -306,3 +325,16 @@ index() : using of index method we can find out specific index position of eleme
     syntax :
 
     list.index(value)
+--------------------------------------------
+********************************************
+
+tuple :: Tuple is collection data type which is combination
+         simiar and dis-similer data element.
+
+         tuple which is represent by () breaces.
+
+         tuple using is ordarable , indexable but immutable
+
+         in tuple we can`t change the value
+
+         so , tuple does not have append , remove kind of methods.
