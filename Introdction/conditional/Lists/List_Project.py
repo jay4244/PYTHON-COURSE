@@ -30,13 +30,14 @@ print("----------- Match Start -------------")
 print("Match between", User_Team, "and", Opponent_Team, "has started.")   
 print("-------------------------------------")
 
-Run_List = ["1","2","3","4","5","6","Wide","Noball","Wicket"]
+Run_List = ["1","2","3","4","6","Wide","Noball","Wicket"]
 print("Over 1:",end=" ")
 for ball in range(1,7):
+        print("user press enter :",ball)
         Teams_Run = random.choice(Run_List)
         print("Team run is :",Teams_Run) 
         if Teams_Run == "Wicket":
                 print("player is out")
                 break
-Total_Runs = ball + Teams_Run
-print("Total Runs scored in Over 1 is :", Total_Runs)        
+        print("Total runs is :",Teams_Run+ball)
+print("-------------------------------------")
