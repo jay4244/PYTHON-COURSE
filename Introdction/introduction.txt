@@ -344,5 +344,18 @@ set :: will is a collection data type which is represent by { } breaces.
 
     set which is unorderable,unidexable,immutable.
 
+    if we want remove duplicate value from the se we can use set.
+
 =========================================================
-* Dicinory ::    
+* Dictionary :: Dictionary is a most powerfull concept of python collection topic.
+
+dicionary which is contain key and value in { } breaces.
+dicionary which is contain key and value in pair.
+
+syntax :
+d ={
+    key :value,
+    key :value,
+    ....
+    ....
+}
