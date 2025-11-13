@@ -338,3 +338,11 @@ tuple :: Tuple is collection data type which is combination
          in tuple we can`t change the value
 
          so , tuple does not have append , remove kind of methods.
+
+---------------------------------------------------------
+set :: will is a collection data type which is represent by { } breaces.
+
+    set which is unorderable,unidexable,immutable.
+
+=========================================================
+* Dicinory ::    
