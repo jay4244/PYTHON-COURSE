@@ -217,8 +217,7 @@ for loop :
 synatax :
         for var in sequance :
             statement
-
-
+            
 ================================================
 WHile loop :
 
