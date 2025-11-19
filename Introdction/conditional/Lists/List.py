@@ -7,3 +7,4 @@ print(l1[1])
 print(l1[2][1])
 print(l1[2][3][1])
 print(l1[6][1])
+
