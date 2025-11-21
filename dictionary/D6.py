@@ -23,7 +23,6 @@ while main_status:
             
             product[product_name]=sub_dis
             
-            print(product)
             break
     elif choice==2:
         status = True
