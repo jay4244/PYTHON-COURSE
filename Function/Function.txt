@@ -1,0 +1,62 @@
+What is function ?
+--------------------------
+    function is a block of code that are used to again and again.
+
+    using of function we can reduce our code.
+
+    we can save our development line.
+
+--------------------------------
+How to create and use of function.
+
+using of def keyword we can define our function.
+
+step 1: function deffnction
+
+    syntax : def <functionname> :
+    block of code
+
+step 2: function calling
+
+    syntax :
+            functionname()
+
+------------------------------
+types of function ?
+
+Threr are 2 type of function.
+
+    1) defult function :
+        which is predefine by python system
+
+        e.g., print() ,input(),len(),max(),...
+
+    2) user-defined function:
+
+        which is create by use own programing.    
+
+-------------------------------
+function categories :
+
+There are 4 type of categories
+
+1) function without parameter and function without return type.
+
+    syntax : def function():
+                statement
+
+2) function with parameter and function without return type.
+
+    synatax : def function (parameter1,parameter2..,):
+                statement
+
+3) function without parameter and function with return type.
+
+    note : at a time we can return single statment or single value.
+    syntax : def function():
+                return statement
+
+4) function with parameter and with return type.
+
+    syntax : def function(parameter1,parameter2...,):
+                return statement
