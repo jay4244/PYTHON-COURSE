@@ -334,7 +334,7 @@ tuple :: Tuple is collection data type which is combination
 
          tuple using is ordarable , indexable but immutable
 
-         in tuple we can`t change the value
+         in tuple we can`t change the value.
 
          so , tuple does not have append , remove kind of methods.
 
