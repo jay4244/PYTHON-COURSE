@@ -49,7 +49,7 @@ There are 4 type of categories
 
     synatax : def function (parameter1,parameter2..,):
                 statement
-
+ 
 3) function without parameter and function with return type.
 
     note : at a time we can return single statment or single value.

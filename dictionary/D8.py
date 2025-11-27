@@ -17,9 +17,6 @@ while True:
     if product_name in shop:
         if product_name == "samsung s24":
             price = 125999
-            # cart['product_name'] = "samsung s24"
-            # cart['price'] = 125999
-            # print(cart)
         elif product_name == "vivo v60":
             price = 89999
         elif product_name == "oneplus 9r":
@@ -29,10 +26,9 @@ while True:
         elif product_name == "redmi 10":
             price = 14999
     else:
-        print("Product not aveliable")                    
+        print("Product not avaliable")                    
     Total_price = price * qty    
     cart = print(f"{product_name} Qty. {qty} Rs. :{Total_price}")
-    sub_dic = []
     
     ADD = input("Do you want to add more items? (y/n) : ").lower()
     if ADD == 'y' or ADD == 'yes':
