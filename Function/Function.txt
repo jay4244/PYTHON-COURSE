@@ -60,3 +60,26 @@ There are 4 type of categories
 
     syntax : def function(parameter1,parameter2...,):
                 return statement
+
+-----------------------------------------------------
+2) lambda function : lambda function is an anoymous function
+
+        * function without any name its called lambda function.
+
+        lambda function which declare with lambda keyword 
+
+        there is only one return statment
+
+        lambda function which can accept as many as parameter
+
+        syntax :
+
+        lambda args : statement
+
+-----------------------------------------------------
+map() : map is a most powerfull function which group together iteration and function 
+        logic :
+
+        syntax :
+                    map(function,iteration)
+                            
