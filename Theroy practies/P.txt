@@ -1,0 +1,225 @@
+# Core Python Theory Questions List
+
+1) What is Python? Why is it called an interpreted language?
+
+Ans. ->python is interpreted language and object oriented programming language.
+     ->python one by one line interpeter to machine language to byinary coding language.
+       Python interpreter har line ko padhta hai, samajhta hai, aur turant execute karta hai.
+       Isse errors bhi jaldi pata chal jaate hain.
+
+2) Explain features of Python that make it popular.
+
+Ans. -> python he wo huge library own karta he.
+     -> python Windows, Mac, Linux sab par chalti hai.
+     -> python ko free of cost use kare skate ho.
+     -> Python ke paas bohot saari in-built libraries hain     
+     -> python codeing smajna easy hai.
+
+3) Difference between Python 2 and Python 3.
+
+Ans. -> python 2 me print Hai wo statement he.
+     -> python 3 me print Hai wo function he.
+     -> python 2 Ascii value suport karta Hai.
+     -> python 3 by defult unicode suport karta Hai.    
+
+4) What is PEP 8 and why is it important?
+
+Ans. -> PEP 8 wo python me  Enhancement Proposal jo guidline our best practices karata
+        he python code ko writing kar ne ke liye.
+     -> PEP 8 developers help kare ta he ki wo code easier,redeblity or consistency ko 
+        improve kare sake.
+     -> PEP 8 me vaiable ko lowercase me likha jata he.
+
+5) Explain indentation in Python.
+
+Ans. -> python indentation ka matalab he ki code ke aage thodi space dena.
+     -> python ke system se hi stucture tyre hota he.
+     -> Ager indentation galat ho to error ati code me.
+
+6) What are Python’s keywords? Give examples.
+
+Ans. -> python me resverd word hota he.
+     -> keyword ko variable ki tarh use nahi kare sakte.
+     -> ex.,keyword names :- if,else,while,for,break,pass,true,false.
+
+7) What are identifiers in Python? Rules for naming them.
+
+Ans. -> identifiers in python name of vaiable,class give him.
+     -> identifiers can not use of keyword.
+     -> in identifiers cannot start with numbers.
+
+8) What is the difference between a statement and an expression?
+
+Ans. -> expression he wo koy ak value return karta he.
+     -> expression return me numbers ya variable return karta he.
+     -> statement ak code hota jis me koy action hota he.
+     -> statment koy value return nahi karta.
+
+9) What is dynamic typing in Python?
+
+Ans. -> dynamic typing me hame variable ka data type diclare nahi kare na padta.
+     -> dynamic typing me wo khud hi deside kare ta he ki iska data type kya he.
+     -> wo data type ke based par store kareta he.
+
+10) What is the difference between Python and other programming languages like Java or C?
+
+Ans. -> java jo he wo code ke sath me compile ho jata he.
+     -> c he wo code complete hone ke bad compile hota he.
+     -> java ko android app or games ke use hota he.
+     -> c ko system programing ke use hota he.
+
+11) What are Python’s built-in data types?
+
+Ans. --> Python me built-in data types wo predefined types hain jo variables me data store karne ke liye use hote hain.
+ Ye data organize karna aur manipulate karna easy banate hain. Main types ye hain:
+
+1️⃣ Numeric Types – Integer, Float, Complex
+
+Example: x = 10 (int), y = 3.14 (float)
+
+2️⃣ Sequence Types – List, Tuple, Range
+
+List aur Tuple me multiple items store hote hain.
+
+Example: my_list = [1, 2, 3], my_tuple = (1, 2, 3)
+
+3️⃣ Text Type – String (str)
+
+Example: name = "Alex"
+
+4️⃣ Set Types – Set, Frozenset
+
+Unique items store karte hain, unordered hote hain.
+
+Example: my_set = {1, 2, 3}
+
+5️⃣ Mapping Type – Dictionary (dict)
+
+Key–value pairs store karte hain.
+
+Example: student = {"name": "Alex", "age": 20}
+
+6️⃣ Boolean Type – bool
+
+True ya False value store karta hai.
+
+Example: is_valid = True
+
+7️⃣ None Type – None
+
+Represent karta hai empty ya null value.
+
+Example: x = None
+
+12) Difference between mutable and immutable data types.
+
+--> mutable wo hota he ki koy value ko likhe ne ke Baad me use me value ko Badal sakete he.
+
+    Ex., a = [1,2,3]
+         a=[10] # list me value change ho jyagi
+         a=[1,2,3,10]
+
+--> immutable me ham value ko Badal nahi sakte but use me naya object bana sakete hai.
+
+    Ex., s = "hello"
+         s = s + "World" # s me new sting aa jati he.
+
+13) Explain `None` in Python.
+
+--> `None` python me ak special value he agar koy value exist nahi karti ya empty hai use me
+    blank ka kam kareta he.
+
+--> `None` me value numeric ya string ho shakti he.
+
+--> Ex., a = None
+         print(a)
+         print(type(a))
+
+
+14) What are type conversion and type casting in Python?
+
+--> 1) type conversion ka matlab he ki python khud data type change kare leta he jab use jaroot ho tab.
+
+       Ex., a = 5  # int 
+            b = 3.5 # float
+            c = a + B   # int ko float me change kar deta he.
+
+    2) type casting ka matlab us me hame khud data type change kare na padta with using function.
+
+    --> function name like :- int(),float(),str().
+
+        Ex., a = "10" 
+             b = int(a) string ko integer me convert kar diya              
+
+15) What are Python’s numeric types? (int, float, complex)
+
+--> in python Hum jab poore number ko store kare sakhte use hum integer type khete he.
+
+    Ex., a = 10
+
+--> float me decimal number store hota he aur use (.) se Describe kar sakhte he.
+
+    Ex., a = 4.5
+
+--> complex me ak esa data type he jisme real part aur imginary part ko wo store kare ta he.
+
+    Ex., a +bj
+
+
+16) Difference between list, tuple, set, and dictionary.
+
+--> list :- collection che data type no jo similar or dis-similar data element ka.
+
+    --> list ko hum mutable keha sakte he jisme hum value ko change kar sakhte he.
+
+    list ko [] square braces me Describe kara jata he.
+
+--> tuple :- tuple is also combination he simiar or dis-simiar data element ka.
+
+    --> tuple ko hum immutable bhi bola ja ta he unme value change nahi kare sakhte.
+
+    --> tuple ko () parentheses se Describe kara jata he.
+
+--> set :- set ko collection of data type kaha jata he.
+
+    --> set he wo duplicate value ko remove kare deta he.
+
+    --> set ko hum {} braces me Describe karete he.
+
+--> Dictionary :- Dictionary which contain key and value in pair.
+
+    --> Dictionary contain value Describe in {} braces.
+
+
+17) What is the difference between shallow copy and deep copy?
+
+--> shallow copy sirf outer object ki copy kareta he.
+
+    --> lekin andar ke nested object ki bhi copy karta he.
+
+    --> Ex., a = [1[2,3]]
+             b = copy.copy(a)
+
+--> deep copy pure cell ko copy kar leta he.
+
+    --> aur ye object ki aur inner object ki bhi copy kare leta he.
+
+    --> Ex., import copy
+
+            a = [1,[2,3]]
+            b = copy.deepcopy(a)
+
+
+18) Explain string immutability in Python.
+            
+--> string immutability ka matlab ye hota he ki string me value ko change kare he to 
+    python khud hi new string create kare deta he.
+
+    --> Ex., s = "Hello"
+             s = "H" +[1:]
+             print(s)
+
+
+19) What is the difference between `is` and `==`?
+
+-->              
