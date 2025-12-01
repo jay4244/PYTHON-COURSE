@@ -222,4 +222,39 @@ Example: x = None
 
 19) What is the difference between `is` and `==`?
 
--->              
+--> == he wo value of equality check kareta he.
+
+    --> == evaluate kareta he two object are same.
+
+--> is he wo identity equality check kare ta he.
+
+    --> is ka meaing ye he two object ko same point par reference karta he.
+
+20) What are Python’s sequence data types?
+    
+--> python sequence data type wo he jisme data ordered from me hota he.
+
+    --> use access kare ne ke liye hum uske index number se access kare sakhte he.
+
+    --> sequence data type me 4 type ki data type he :-
+
+        1.list :- jo ordered,mutable he jisme value ko change kare shkte he.
+
+            --> Ex., [1,2,3]
+
+        2.Tuple :- tuple me hum use immutable or ordered bhi khe sakhte he.
+
+            --> Ex.,(1,2,3)
+
+        3.String :- string hum characters ka ordered sequence dekh sakhte he.
+
+            --> Ex., "Hello" 
+
+        4.Range :- Rnage for loop me use hota he numbers sequence generate kare sakhte he.
+
+            --> Ex., range(1,10)
+
+
+21) Explain different types of operators in Python.
+                        
+--> python mein symbols hote he jo operators perform hone se           
