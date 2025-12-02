@@ -82,4 +82,12 @@ map() : map is a most powerfull function which group together iteration and func
 
         syntax :
                     map(function,iteration)
-                            
+
+----------------------------------------------------
+filter :- filter is a same behave like map function but filter apply operation on
+          specific condition wise.
+
+          and filter outspecific sequence.
+
+          syntax : filter(fname,sequence)
+                                      

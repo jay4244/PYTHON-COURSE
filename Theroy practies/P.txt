@@ -257,4 +257,165 @@ Example: x = None
 
 21) Explain different types of operators in Python.
                         
---> python mein symbols hote he jo operators perform hone se           
+--> python mein symbols hote he jo operators perform hone se usko utilztion kareta Hai.
+
+    --> python me 7 different type ke operators hote he.
+
+    --> 1) Arithmatic :- jis me (+,-,*,/,//,%,//) ke symbol hote Hai.
+
+    --> 2) Relational :- jisme (==,!=,>,<,>=,<=) ke symbol use hote Hai.
+
+    --> 3) Logical :- jisme (and,or,not) ke symbol use hote Hai.
+
+    --> 4) Assignment :- jisme (=,+=,-+,*=,/=) ke symbol use hote Hai.
+
+    --> 5) Bitwise :- jisme (&,.,^,~,<<,>>) ke symbols use hote Hai.
+
+    --> 6) Membership :- me (in,not in) ka use hota hai.
+
+    --> 7) identity :- me (is,not is) ka use hota hai.
+
+
+22) Difference between `/` and `//` in Python.
+    
+--> python me `/` ka matlab hota hai ki two value ka divsion karna.
+
+    --> Ex., a = 10
+             b = 2
+             c = a / b
+
+    --> `/` me hamesa answer float yahani point ata Hai.
+
+--> python me `//` ka matlab last me answer ye integer me deta hai.
+
+    --> Ex., a = 10
+             b = 3
+             c = 10 // 3
+             
+    --> `//` decimal ka part hai.
+
+
+23) What is the use of `in` and `not in` operators?
+
+--> `in` operator check karta hai ki sequence jo di hui he useke andar value paresent hai ya nahi.
+
+    --> Ex., "a" in "apple"
+
+--> `not in` operator check karta hai ki sequence jo he useme andar value paresent naho.
+
+    --> Ex., "X" not in "apple"
+
+
+24) Difference between identity and equality operators.
+    
+--> python operators me equality ka matlab hota hai (==) ye chcke karta he dono element me 
+    vlaue same hai ki nahi.
+
+    --> Ex., a = [1,2,3]
+             b = [1,2,3]
+
+             print(a==b) # yaha pe value ko check karta he same he ki nahi
+
+--> python operators me identity ka matlab do variables same object ko point karte hai ki nahi.
+
+    --> identity compring karta hai
+
+    --> Ex., a = [1,2,3]
+             b = [1,2,3]
+
+             print(a is b) # that point yaha par compare karta hai
+
+
+25) What are bitwise operators in Python?
+ 
+-->  bitwise operator means ki value ko binary from me perfrom karta hai.
+
+
+26) Explain conditional statements (`if`, `elif`, `else`).
+
+--> in python we use of conditional statement through we can check the statement.
+
+    --> 1) `if` :- if condition use of if condition was true that time bolck wii execute.
+
+        --> Ex., age = 18
+                 if age > 18:
+                 print("you are aligable for vote")
+
+    --> 2) elif :- elif condition that time run when if condition was false when next 
+                   condition was check and next block execute.
+
+        --> Ex., marks = 70
+                 if marks >= 90:
+                 print("A")
+                 elif marks >=60:
+                 print("B")
+
+    --> 3) else :- else condition is when upper condition was false then else bolck will 
+                   execute.
+
+        --> Ex., num = 5 
+                 if num > 10:
+                 print("Greter")
+                 else :
+                 print("smallest") 
+
+27) Difference between `for` and `while` loops.
+                                                               
+--> 1) for :- in python jab hame number of iterction pata ho tab hum for loop ka use hota hai.
+
+    --> for every number ki range ko check karta he our bad me decision leta hai.
+
+    --> Ex., for i in range(1,10)
+             print(i)
+
+--> 2) while :- in python jab hume number of iterction pata nhi ho our condition ko check 
+                kara hai ki condition true hai ki nahi tab while loop ka use hota hai.
+
+            --> while jab tak condition true nahi ho jati tabtak use execute hota rhe ta hai.
+
+    --> Ex., count =5 
+             while count <=5:
+                     print(count)
+                     count +=1
+
+
+28) What are nested loops?
+
+--> nested loop yahani jab condition ke aundar condition dal ke check karna ho tab nested loop ka
+    use hota hai.
+
+    --> nested loop me hum multiple task ak sath me execute kare skhate hai.
+
+    --> Ex., for i in range (1,6):
+                for j in range (1,6):
+                print(i,j)
+
+
+29) Explain the use of `break`, `continue`, and `pass`.
+
+--> 1) break :- break statement loop jis flow me chal raha he us loop ko rok neke liye 
+                break statement ka use hota hai.
+
+    --> for i in range(5):
+        if i == 3:
+            break
+        print(i)
+
+--> 2) continue :- continue statement jis numbers value break ho gya he vha se fir se 
+                   skip karene ke liye continue statement ka use hota hai.
+
+    --> for i in range(5):
+             if i == 3:
+                continue
+            print(i)
+
+--> 3) pass :- pass statement temp ke liye hold pe rkha de ta hai like blank statement.
+
+    --> for i in range(5):
+            if i == 3:
+                pass
+            print(i)
+
+30) Difference between `for … else` and `while … else` loops in Python.
+
+-->
