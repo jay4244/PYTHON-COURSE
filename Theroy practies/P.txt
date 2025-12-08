@@ -418,4 +418,144 @@ Example: x = None
 
 30) Difference between `for … else` and `while … else` loops in Python.
 
--->
+--> 1) for...else :- for else yahni jisme loop ki condition false hone ke bad else bolck me jo condition
+    he use execute karta hai.
+
+    --> for i in range(5):
+            if i == 10:
+            break
+        else:
+            print("Loop finished normally")
+
+--> 2) while...loop :- while...else me while ki condition false hoti he tab while...else
+       block ka execute hota hai.
+
+       --> count = 1
+           while count <= 3:
+           print(count)
+                count += 1
+            else:
+                print("Loop ended normally")
+
+
+31) What are functions in Python?
+
+--> python me function yahni block of code hai jiseme specific task perfrom hota hai.
+
+    --> function me hum addition,massage print karna,value ko return karna etc..,
+
+    --> function ka use kare ke hume koy line bar bar repeat karne ki jarur nahi hoti.
+
+    --> function ko call karne ke liye jo name diya usise call karna padta hai.
+
+32) Difference between built-in and user-defined functions.
+    
+--> 1) built-in :- built-in yahani jo function already python me in built ate hai.
+
+    --> built-in me hume function ko define karne ki jarurt nahi padti.
+
+    --> built-in ko hum dircet use karshkte hai.
+
+    --> Ex., print(),len(),sum(),max()..,
+
+--> 2) user-defined :- user-defined yahni wo function jise user built karta hai.
+
+    --> user apne requrment ke anusar function create karta hai.
+
+    --> new function ko crate karne ke liye def ka using hota hai.
+
+    --> Ex., def addition(a,b):
+                    return a + b
+
+33) Explain `*args` and `**kwargs`.
+
+
+34) What is recursion? Give an example scenario.
+
+--> recursion wo ak method hai jo function bar bar call karta hai jab condition stop nahi 
+    ho jati.
+
+    --> recursion sub problem our small sub-problems me todne ke liye use hota hai.
+
+    --> recursion tree,factorial serching me kam hota hai.
+
+    --> Ex., def factorial(n):
+                if n == 1:    
+                    return 1
+                return n * factorial(n - 1)
+            print(factorial(5))
+
+35) Difference between local and global variables.
+
+--> 1) local :- local variables function ke andar likhe jate hai.
+
+    --> local function ka scope only inside the function tak hi shimt hai.
+
+    --> Ex., def show():
+                x = 10  
+            print(x)
+
+--> 2) global :- global variable outside of the function declare hota hai.
+
+    --> golbal variable ko hum program me kahi bhi use kar shkte hai.
+
+    --> global variable ka scope entire programe me hota hai.
+
+    --> Ex., x = 20  
+
+            def show():
+                print(x)
+
+36) What is the use of the `global` keyword?
+
+--> global keyword ka use kisi bhi function ke andar ke variable ko change ya modify karne
+    ke liye use hota hai.
+
+    --> global keyword ka used access and modify the global variable inside of function.
+
+    --> Ex., x = 10
+
+            def test():
+                global x
+                x = 20   
+
+            test()
+            print(x)
+
+37) 37. Explain anonymous (lambda) functions.
+
+--> function without any name its called lambda function.
+
+--> lambda function declare with keyword of lambda.
+
+--> lambda me ak value return kar shkate hai.
+
+--> syntax :-  
+
+        lambda args : statement
+
+38) Difference between `return` and `yield`.
+
+
+39) What are higher-order functions in Python?
+
+--> higher-order functions wo hota hai kisi function ko input me leta hai,ya phir ek 
+    function output me deta hai.
+
+    --> iska use code ko clean aur reuseable hota hai.
+
+    --> functional programming easy ho jata hai.
+
+    --> Ex., def square(x):
+                return x * x
+
+        def apply(func, value):
+            return func(value)
+
+        print(apply(square, 5))
+
+40) What are Python decorators?
+
+--> Decorators are functions that modify the behavior of another function or method. 
+
+--> decorator code ko clean and short rakhna ta hai.

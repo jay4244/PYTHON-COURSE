@@ -90,4 +90,48 @@ filter :- filter is a same behave like map function but filter apply operation o
           and filter outspecific sequence.
 
           syntax : filter(fname,sequence)
-                                      
+
+"""
+*args : arguments : tuple as a parameter
+
+**kwargs : key with arguments : dictionary as a parameter.
+
+
+"""
+
+def myfun (*args):
+    for i in args:
+        print(i)
+
+myfun(10 , 20 , 30 , 40 , 50)       
+
+# kwargs :
+
+def myfun(**kwargs):
+    for k , v in kwargs.items():
+        print(f"{k} = {v}")
+
+myfun(name = "aaa", subject = "python")
+
+--------------------------------------------
+Module : Module is a collection of files , variable and many more.
+
+     using of module we can reduce our  code.
+
+     there are 3 types of modules :
+
+     1) built- in module
+     2) user - defiined module
+     3) 3rd party module
+
+
+     1) built in module : which is preinstall with python
+
+          e.g random(), math()....
+
+     2) user - defined module : which is define by user as per need.
+
+
+     3)3rd party module (libraries)  :
+
+              numpy , pandas....
