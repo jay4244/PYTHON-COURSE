@@ -328,7 +328,18 @@ Example: x = None
 
 25) What are bitwise operators in Python?
  
--->  bitwise operator means ki value ko binary from me perfrom karta hai.
+--> Bitwise operators Python me un operations ke liye use hote hain jo numbers ke binary format par perform kiye jaate hain.
+ Matlab, 0 aur 1 ke level par kaam karte hain. Ye operator CPU-level operations jaisa fast aur efficient hota hai, 
+ isliye system programming, cryptography, networking, aur performance-critical tasks me use hota hai.
+
+ ✔ Types of Bitwise Operators
+
+& (AND)	Jab dono bits 1 ho tab hi result 1 aata hai
+  (OR) 
+^ (XOR)	Bits different ho tab result 1
+~ (NOT)	Har bit ko invert kar deta hai (1→0, 0→1)
+<< (Left Shift)	Bits ko left shift karta hai → number double jaisa hota hai
+>> (Right Shift)	Bits ko right shift karta hai → number half jaisa hota hai
 
 
 26) Explain conditional statements (`if`, `elif`, `else`).
@@ -469,6 +480,10 @@ Example: x = None
 
 33) Explain `*args` and `**kwargs`.
 
+--> In Python, *args aur **kwargs function me multiple values receive karne ke liye use hote hain. 
+-->*args Ye arguments ko tuple ki form me store karta hai. Dusri taraf,
+--> **kwargs ye arguments ko dictionary ke form me store karta hai In dono ka main purpose function ko flexible banana hota hai, 
+-->  taaki wo different number of inputs ko easily handle kar sake."
 
 34) What is recursion? Give an example scenario.
 
