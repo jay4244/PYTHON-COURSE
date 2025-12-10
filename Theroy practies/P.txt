@@ -212,7 +212,7 @@ Example: x = None
 
 18) Explain string immutability in Python.
             
---> string immutability ka matlab ye hota he ki string me value ko change kare he to 
+--> string immutability ka matlab ye hota he ki string me value ko change kare ge to 
     python khud hi new string create kare deta he.
 
     --> Ex., s = "Hello"
