@@ -11,7 +11,7 @@ Ans. ->python is interpreted language and object oriented programming language.
 
 Ans. -> python he wo huge library own karta he.
      -> python Windows, Mac, Linux sab par chalti hai.
-     -> python ko free of cost use kare skate ho.
+     -> python ko  hum free of cost use kare skate ho.
      -> Python ke paas bohot saari in-built libraries hain     
      -> python codeing smajna easy hai.
 
