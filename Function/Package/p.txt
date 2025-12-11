@@ -1,0 +1,8 @@
+package : package is a one kinf of folder.
+          which can contain classes,methods,variable and modules..
+
+          package in a simple language we can say that package is a collection
+          of modules...
+
+          __init__.py : this is main __init__.py file this is a 
+          blank file which is indicate any folder or a directory as a package.
