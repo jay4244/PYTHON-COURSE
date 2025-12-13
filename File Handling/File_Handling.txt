@@ -1,0 +1,11 @@
+when we want store our output we can use file handling.
+
+using of a modes we can work with file
+
+1)read : r mode : we cna read file
+2)write : w mode : we can write a file
+3)append : a mode : we can add contect in existing file
+4)x : x mode : create a blank new file
+
+syntax : var = open("filename","mode")
+
