@@ -1,0 +1,34 @@
+OOPS : object oriented programing system
+
+  oops stand in below pillers
+
+  1) class
+  2) object
+  3) inheritance
+  4) encapsulation
+  5) polymorphishism
+  6) abstraction
+  7) aggregation
+
+
+----------------------------------------------------------------------
+
+1) class : class is a user defined data type 
+
+      which is contain similar and dis- similar data elements.
+
+      class which is represent by class keyword.
+
+      syntax:
+
+      class <classname>:
+             data members
+             member functions
+
+
+2) object : object is an instance or variable of class
+
+       using of object we can access properties oof class.
+       object is a blueprint of class.
+
+       one class can have multiple objects.
