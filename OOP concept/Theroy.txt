@@ -32,3 +32,80 @@ OOPS : object oriented programing system
        object is a blueprint of class.
 
        one class can have multiple objects.
+
+---------------------------------------------------------
+
+3) inheritance : when one class derived properties of another class its called inheritance.
+
+              it provide reusability
+
+              using of inheritance we can reduce our code
+
+              inheritance mainly use for save development time and maintaince time updation.
+
+there are mainly 5 type of inheritance:
+
+1) single inheritance
+2) multi-Level inheritance
+3) multi-ple inheritance
+4) Hierarchical inheritance
+5) hybrid inheritance
+
+1) single level :
+
+                  parent class (super class) (Base class)
+
+                    |
+                    v
+                  child class (Sub class) (derived class) 
+
+2) multi-level :
+
+                  A
+                  |
+                  v
+                  B
+                  |
+                  v
+                  C
+
+3) multiple :
+
+                  A        B
+                  |        |
+                  ----------
+                      C
+
+4) Hierarchical :
+
+                      A
+                      ^
+                      |
+                --------------
+                |            |
+                B            C
+
+5) hybrid inheritance :
+
+                        A
+                        |
+                        v
+                ------------------
+                |                |
+                B                C
+                |
+                v
+          --------------
+          |            |
+          v            v
+          D            E              
+
+-------------------------------------------------------
+4) encapsulation : it is behave like an capsule
+
+                  which contain different data members in an single entity
+                  its called encapsulation
+
+                  encapsulation prevents data from outside the user
+
+                  which is provide getter and better.
