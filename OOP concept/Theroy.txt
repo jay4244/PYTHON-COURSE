@@ -110,4 +110,43 @@ there are mainly 5 type of inheritance:
 
                   which is provide getter and better.
 
-                  
+------------------------------------------------------
+polymorphishism : poly means more and phishism means forms.
+
+          one named method has different froms its called polymorphishism.
+
+          there are 2 types of polymorphishism
+
+          1)method overloding
+          2)method overriding
+
+-> method overloding :
+                      when one contain same name method its called method overloding
+                      in python method overloding does not support.
+
+
+-> method ovveriding : 
+                      when parsent class and child class both have same method its called
+                      method ovveriding.
+
+----------------------------------------------------
+abstraction : which is provide only few information not allocated background information.
+
+             using of abstraction we can represent only inital information.
+             abstraction which is contain only finiction declartion.
+
+abstraction class : a class which is contain one or many method without functionalitiy
+                    or bolck of code.
+
+abstract method : which is contain only declartionnot body part.
+
+ABC : abstract class
+
+-------------------------------------------------
+aggregation : 
+              inheritance provide us IS-A relationship
+
+              aggregation provide us HAS-A relationship
+
+              aggregation there is no blood relationship or in simple language we can say that
+              one class object can use in another class its called aggregation.
