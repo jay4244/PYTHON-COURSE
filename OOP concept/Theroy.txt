@@ -150,3 +150,10 @@ aggregation :
 
               aggregation there is no blood relationship or in simple language we can say that
               one class object can use in another class its called aggregation.
+
+------------------------------------------------
+3rd part module :::
+
+          like numpy and pandas
+
+pandas : pandas basically use for staticatical purpose and for data anlaysis purpose.          
