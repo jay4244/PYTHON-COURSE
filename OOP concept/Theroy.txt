@@ -156,4 +156,4 @@ aggregation :
 
           like numpy and pandas
 
-pandas : pandas basically use for staticatical purpose and for data anlaysis purpose.          
+pandas : pandas basically use for staticatical purpose and for data anlaysis purpose.           
