@@ -1,0 +1,13 @@
+CLI = command line interface
+
+    CLI it take lees time to execute functions
+    only techincal person can easily understand it.
+
+GUI = grapical user interface
+
+    GUI takes more time to execute or perfrom any operation
+    its any for my customer or clinet
+
+=================================================================
+in python we have tkinter libary to work with GUI based application.
+
