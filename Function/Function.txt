@@ -137,5 +137,3 @@ Module : Module is a collection of files , variable and many more.
               numpy , pandas....
 
 ----------------------------------------------------------
-modules :-
-
